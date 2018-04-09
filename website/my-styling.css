@@ -1,0 +1,53 @@
+html{
+	height:auto;
+	width: 100%;
+	
+}
+h1 {
+	font-size: 500%;
+}
+.container{
+	
+	height: auto;
+	width: 80%;
+	float: center;
+	
+	
+}
+.navigation-bar{
+	width: 100%;
+	height: 50px;
+	background-color: #333;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+	text-style-type: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}

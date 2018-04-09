@@ -1,0 +1,93 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+#mainbody{
+  height:auto;
+  width:95%;
+}
+#topheader{
+  height: 200px;
+  width:auto;
+  background-color:#75a4ef;
+  margin-bottom: 5px;
+}
+
+#headerWrapper{
+  position:relative;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  height: 600px;
+  background-image: url(../images/backgroundfile/thumb.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 700px;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+#logotext{
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position:left;
+}
+
+#logobodytext{
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  background-image: none !important;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: 70% 180px;
+  margin-top: 90px;
+}
+/* #for-flower{
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  background-image: url(../images/backgroundfile/flower.jpg);
+  background-size: auto 400px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  top: 525px;
+  right: -20px;
+} */
+/* #backflower{
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  background-image: url(../images/backgroundfile/newflower.jpg);
+  background-size: auto 400px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  top: 400px;
+  right: -20px;
+
+} */
+
+.img-thumb{
+  width: auto;
+  height: 200px;
+
+}
+
+#footer{
+  margin-top: 50px;
+}
+img.details{
+  width: 33%;
+  margin: 15px auto;
+}
+
+.table-auto{
+  width: auto;
+  margin: 0 auto;
+}
+
+#add-product-btn{
+  margin: 25px;
+  height: 85px;
+}
